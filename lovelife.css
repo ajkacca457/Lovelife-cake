@@ -8,11 +8,7 @@
   padding: 0;
   font-family: 'Saira Condensed', sans-serif;
   box-sizing: border-box;
-}
 
-#navcont {
-  width: 80%;
-  margin:
 }
 
 #nav {
@@ -55,6 +51,7 @@
   align-items: center;
   justify-content: center;
   flex-direction: column;
+    overflow: hidden;
 }
 
 #overlay h1 {
@@ -77,6 +74,7 @@
   text-align: center;
   border-radius: 10px;
   border: 2px rgba(250, 254, 255, 0.6) solid;
+    overflow: hidden;
 }
 
 #imgcont {
@@ -98,6 +96,10 @@ border-radius:5px;
   color:rgba(2, 61, 69, 1);
 }
 
+#maincont {
+  overflow: hidden;
+}
+
 #featured {
   width: 80%;
   margin: 2% auto;
@@ -105,6 +107,7 @@ border-radius:5px;
   background-color: rgba(252, 166, 216, 0.24);
   padding: 2%;
   border-radius: 10px;
+    overflow: hidden;
 }
 
 .underline {
@@ -153,6 +156,7 @@ font-size: 120%;
   padding: 2%;
   text-align: center;
   margin: 0 auto;
+    overflow: hidden;
 }
 
 #food h1 {
@@ -218,6 +222,7 @@ font-size: 120%;
   padding: 1%;
   background-color: rgba(71, 35, 215, 0.23);
   text-align: center;
+    overflow: hidden;
 }
 
 #fitness h1 {
@@ -250,6 +255,7 @@ font-size: 120%;
   text-align: center;
   width: 90%;
   margin: 0 auto;
+    overflow: hidden;
 }
 
 #travel h1 {
@@ -316,6 +322,7 @@ font-size: 120%;
 }
 
 #blog {
+  overflow: hidden;
   margin-top: 2%;
   text-align: center;
   padding: 2%;
@@ -371,6 +378,7 @@ font-size: 120%;
   background-color: rgba(83, 106, 96, 1);
   text-align: center;
   padding: 2%;
+    overflow: hidden;
 }
 
 #footer h3 {
